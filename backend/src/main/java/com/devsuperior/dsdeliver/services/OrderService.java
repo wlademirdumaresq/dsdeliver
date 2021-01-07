@@ -40,7 +40,7 @@ public class OrderService {
 			order.getProducts().add(product);
 		}
 		
-		order = repository.save(order);
+		order = repository.save(order); 
 		return new OrderDTO(order);
 	}
 	
