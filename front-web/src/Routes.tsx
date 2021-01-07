@@ -15,6 +15,7 @@ function Routes(){
                     <Home />
                 </Route>
              </Switch>
+             
         </BrowserRouter>
     )
 }
