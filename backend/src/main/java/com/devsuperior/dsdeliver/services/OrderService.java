@@ -41,7 +41,6 @@ public class OrderService {
 		}
 		
 		order = repository.save(order);
-		
 		return new OrderDTO(order);
 	}
 	
