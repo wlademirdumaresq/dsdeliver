@@ -5,8 +5,8 @@ import { fetchLocalMapBox } from '../api';
 import { OrderLocationData } from './Type';
 
 const initialPosition = {
-    lat: -12.792384,
-    lng: -38.4043183
+    lat: -5.799540030333888,
+    lng: -35.21292676629423
 }
 
 type Place = {
@@ -70,7 +70,7 @@ function OrderLocation({ onChangeLocation }: Props) {
                 </div>
                 <MapContainer
                  center={address.position} 
-                 zoom={15} 
+                 zoom={17} 
                  key={address.position.lat}
                  scrollWheelZoom>
                     <TileLayer
