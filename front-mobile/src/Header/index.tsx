@@ -20,6 +20,11 @@ const styles = StyleSheet.create({
   },
   text: {
     color:'white',
-    marginLeft: 5
+    fontWeight: 'bold',
+    fontSize: 18,
+    lineHeight: 25,
+    letterSpacing: -0.24,
+    marginLeft: 15,
+    fontFamily:'OpenSans_700Bold'
   }
 });
